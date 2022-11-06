@@ -1,0 +1,111 @@
+body {
+	background: url(./img1.akspic.ru-avrora-gorizont-oblako-prostranstvo-atmosfera-2048x1363.jpg) no-repeat center/ cover;
+	height: 90vh;
+}
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.calculator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 20%;
+}
+
+.title {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+	padding-top: 20%;
+	text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.inputdiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.inputs {
+	width: 28%;
+	height: 40px;
+	display: flex;
+	border-radius: 5px;
+	background: none;
+	color: white;
+	border: 1px solid;
+}
+
+.btn {
+	width: 6%;
+	font-size: 16px;
+	line-height: 35px;
+	margin: 10px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background: rgb(50, 50, 255);
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 3px solid transparent;
+	transition: 200ms;
+}
+
+.btn:hover {
+	background: transparent;
+	color: #fff;
+	border: 3px solid rgb(50, 50, 255);
+	border-radius: 10px;
+}
+
+.btntrue {
+	font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+	text-decoration: none;
+	width: 6%;
+	font-size: 16px;
+	line-height: 35px;
+	margin: 10px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	background: green;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 3px solid transparent;
+	transition: 200ms;
+}
+
+.btntrue:hover {
+	background: transparent;
+	color: #fff;
+	border: 3px solid green;
+	border-radius: 10px;
+}
+
+.none {
+	display: none;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
